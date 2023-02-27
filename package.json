@@ -1,0 +1,25 @@
+{
+  "name": "mongodb-operations-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "populateDb": "node ./populateDb.js",
+    "benchmark": "node ./benchmark.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Icaruk/mongodb-operations-benchmark.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Icaruk/mongodb-operations-benchmark/issues"
+  },
+  "homepage": "https://github.com/Icaruk/mongodb-operations-benchmark#readme",
+  "dependencies": {
+    "mongodb": "^5.1.0",
+    "nanobench": "^3.0.0"
+  }
+}

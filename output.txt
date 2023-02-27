@@ -1,0 +1,80 @@
+# multipleQueries with collection size of 100 executed 50 times
+ok ~88 ms (0 s + 88348600 ns)
+
+# multipleQueries with collection size of 100 executed 500 times
+ok ~592 ms (0 s + 591941200 ns)
+
+# multipleQueries with collection size of 100 executed 5000 times
+ok ~4.3 s (4 s + 300954300 ns)
+
+# multipleQueries with collection size of 1000 executed 50 times
+ok ~63 ms (0 s + 63444700 ns)
+
+# multipleQueries with collection size of 1000 executed 500 times
+ok ~653 ms (0 s + 653103900 ns)
+
+# multipleQueries with collection size of 1000 executed 5000 times
+ok ~6.65 s (6 s + 645790500 ns)
+
+# multipleQueries with collection size of 10000 executed 50 times
+ok ~265 ms (0 s + 264711600 ns)
+
+# multipleQueries with collection size of 10000 executed 500 times
+ok ~2.75 s (2 s + 747458600 ns)
+
+# multipleQueries with collection size of 10000 executed 5000 times
+ok ~35 s (35 s + 406030600 ns)
+
+# aggregateUnwind with collection size of 100 executed 50 times
+ok ~45 ms (0 s + 45449600 ns)
+
+# aggregateUnwind with collection size of 100 executed 500 times
+ok ~275 ms (0 s + 275493700 ns)
+
+# aggregateUnwind with collection size of 100 executed 5000 times
+ok ~2.61 s (2 s + 610958700 ns)
+
+# aggregateUnwind with collection size of 1000 executed 50 times
+ok ~56 ms (0 s + 56369200 ns)
+
+# aggregateUnwind with collection size of 1000 executed 500 times
+ok ~526 ms (0 s + 526063100 ns)
+
+# aggregateUnwind with collection size of 1000 executed 5000 times
+ok ~5.24 s (5 s + 240187000 ns)
+
+# aggregateUnwind with collection size of 10000 executed 50 times
+ok ~254 ms (0 s + 254472900 ns)
+
+# aggregateUnwind with collection size of 10000 executed 500 times
+ok ~2.69 s (2 s + 694156300 ns)
+
+# aggregateUnwind with collection size of 10000 executed 5000 times
+ok ~29 s (28 s + 863781300 ns)
+
+# aggregateSetArrayElemAt with collection size of 100 executed 50 times
+ok ~66 ms (0 s + 66309500 ns)
+
+# aggregateSetArrayElemAt with collection size of 100 executed 500 times
+ok ~465 ms (0 s + 464602100 ns)
+
+# aggregateSetArrayElemAt with collection size of 100 executed 5000 times
+ok ~4.58 s (4 s + 583003200 ns)
+
+# aggregateSetArrayElemAt with collection size of 1000 executed 50 times
+ok ~77 ms (0 s + 77083300 ns)
+
+# aggregateSetArrayElemAt with collection size of 1000 executed 500 times
+ok ~636 ms (0 s + 636194400 ns)
+
+# aggregateSetArrayElemAt with collection size of 1000 executed 5000 times
+ok ~7.22 s (7 s + 215621900 ns)
+
+# aggregateSetArrayElemAt with collection size of 10000 executed 50 times
+ok ~212 ms (0 s + 212245700 ns)
+
+# aggregateSetArrayElemAt with collection size of 10000 executed 500 times
+ok ~2.13 s (2 s + 130429300 ns)
+
+# aggregateSetArrayElemAt with collection size of 10000 executed 5000 times
+ok ~20 s (20 s + 288887100 ns)
